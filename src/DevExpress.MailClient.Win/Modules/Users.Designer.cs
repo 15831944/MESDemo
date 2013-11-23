@@ -31,23 +31,24 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Users));
             DevExpress.XtraGrid.StyleFormatCondition styleFormatCondition1 = new DevExpress.XtraGrid.StyleFormatCondition();
-            this.gcIcon = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemImageComboBox2 = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
             this.icEditors = new DevExpress.Utils.ImageCollection(this.components);
             this.splitterItem1 = new DevExpress.XtraLayout.SplitterItem();
             this.lcList = new DevExpress.XtraLayout.LayoutControlItem();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gcPriority = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemImageComboBox1 = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
-            this.gcAttachment = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemImageComboBox3 = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
-            this.gcSubject = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gcFrom = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gcDate = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gcRead = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemImageComboBox4 = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
+            this.gcID = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gcUserName = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gcRealName = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gcSex = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gcPhone = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gcEmail = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gcDeptName = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gcState = new DevExpress.XtraGrid.Columns.GridColumn();
             this.ilColumns = new System.Windows.Forms.ImageList(this.components);
+            this.repositoryItemImageComboBox1 = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
+            this.repositoryItemImageComboBox3 = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
+            this.repositoryItemImageComboBox4 = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageComboBox2)).BeginInit();
@@ -63,23 +64,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // gcIcon
-            // 
-            this.gcIcon.Caption = "Read";
-            this.gcIcon.ColumnEdit = this.repositoryItemImageComboBox2;
-            this.gcIcon.FieldName = "Read";
-            this.gcIcon.ImageIndex = 1;
-            this.gcIcon.Name = "gcIcon";
-            this.gcIcon.OptionsColumn.AllowEdit = false;
-            this.gcIcon.OptionsColumn.AllowFocus = false;
-            this.gcIcon.OptionsColumn.AllowSize = false;
-            this.gcIcon.OptionsColumn.FixedWidth = true;
-            this.gcIcon.OptionsColumn.ShowCaption = false;
-            this.gcIcon.ToolTip = "Icon";
-            this.gcIcon.Visible = true;
-            this.gcIcon.VisibleIndex = 1;
-            this.gcIcon.Width = 35;
             // 
             // repositoryItemImageComboBox2
             // 
@@ -135,24 +119,23 @@
             // gridView1
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gcPriority,
-            this.gcIcon,
-            this.gcAttachment,
-            this.gcSubject,
-            this.gcFrom,
-            this.gcDate,
-            this.gcRead});
+            this.gcID,
+            this.gcUserName,
+            this.gcRealName,
+            this.gcSex,
+            this.gcPhone,
+            this.gcEmail,
+            this.gcDeptName,
+            this.gcState});
             this.gridView1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
             styleFormatCondition1.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             styleFormatCondition1.Appearance.Options.UseFont = true;
             styleFormatCondition1.ApplyToRow = true;
-            styleFormatCondition1.Column = this.gcIcon;
             styleFormatCondition1.Condition = DevExpress.XtraGrid.FormatConditionEnum.Equal;
             styleFormatCondition1.Value1 = 0;
             this.gridView1.FormatConditions.AddRange(new DevExpress.XtraGrid.StyleFormatCondition[] {
             styleFormatCondition1});
             this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.GroupCount = 1;
             this.gridView1.GroupFormat = "[#image]{1} {2}";
             this.gridView1.GroupSummary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
             new DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Count, "Subject", null, "({0} items)")});
@@ -165,32 +148,99 @@
             this.gridView1.OptionsSelection.MultiSelect = true;
             this.gridView1.OptionsView.GroupDrawMode = DevExpress.XtraGrid.Views.Grid.GroupDrawMode.Office2003;
             this.gridView1.OptionsView.ShowGroupedColumns = true;
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.OptionsView.ShowIndicator = false;
             this.gridView1.OptionsView.ShowVerticalLines = DevExpress.Utils.DefaultBoolean.False;
-            this.gridView1.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
-            new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.gcDate, DevExpress.Data.ColumnSortOrder.Descending)});
             this.gridView1.RowCellClick += new DevExpress.XtraGrid.Views.Grid.RowCellClickEventHandler(this.gridView1_RowCellClick);
-            this.gridView1.CustomDrawCell += new DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventHandler(this.gridView1_CustomDrawCell);
-            this.gridView1.CustomDrawGroupRow += new DevExpress.XtraGrid.Views.Base.RowObjectCustomDrawEventHandler(this.gridView1_CustomDrawGroupRow);
-            this.gridView1.SelectionChanged += new DevExpress.Data.SelectionChangedEventHandler(this.gridView1_SelectionChanged);
-            this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
-            this.gridView1.ColumnFilterChanged += new System.EventHandler(this.gridView1_ColumnFilterChanged);
             // 
-            // gcPriority
+            // gcID
             // 
-            this.gcPriority.Caption = "Priority";
-            this.gcPriority.ColumnEdit = this.repositoryItemImageComboBox1;
-            this.gcPriority.FieldName = "Priority";
-            this.gcPriority.ImageIndex = 0;
-            this.gcPriority.Name = "gcPriority";
-            this.gcPriority.OptionsColumn.AllowFocus = false;
-            this.gcPriority.OptionsColumn.AllowSize = false;
-            this.gcPriority.OptionsColumn.FixedWidth = true;
-            this.gcPriority.OptionsColumn.ShowCaption = false;
-            this.gcPriority.ToolTip = "Importance";
-            this.gcPriority.Visible = true;
-            this.gcPriority.VisibleIndex = 0;
-            this.gcPriority.Width = 35;
+            this.gcID.FieldName = "ID";
+            this.gcID.Name = "gcID";
+            this.gcID.OptionsColumn.AllowEdit = false;
+            this.gcID.Visible = true;
+            this.gcID.VisibleIndex = 0;
+            this.gcID.Width = 142;
+            // 
+            // gcUserName
+            // 
+            this.gcUserName.Caption = "登录帐户";
+            this.gcUserName.FieldName = "UserName";
+            this.gcUserName.Name = "gcUserName";
+            this.gcUserName.OptionsColumn.AllowEdit = false;
+            this.gcUserName.OptionsColumn.AllowFocus = false;
+            this.gcUserName.Visible = true;
+            this.gcUserName.VisibleIndex = 1;
+            this.gcUserName.Width = 236;
+            // 
+            // gcRealName
+            // 
+            this.gcRealName.Caption = "姓名";
+            this.gcRealName.FieldName = "RealName";
+            this.gcRealName.Name = "gcRealName";
+            this.gcRealName.OptionsColumn.AllowEdit = false;
+            this.gcRealName.Visible = true;
+            this.gcRealName.VisibleIndex = 2;
+            this.gcRealName.Width = 209;
+            // 
+            // gcSex
+            // 
+            this.gcSex.Caption = "性别";
+            this.gcSex.FieldName = "Sex";
+            this.gcSex.Name = "gcSex";
+            this.gcSex.OptionsColumn.AllowEdit = false;
+            this.gcSex.Visible = true;
+            this.gcSex.VisibleIndex = 3;
+            this.gcSex.Width = 209;
+            // 
+            // gcPhone
+            // 
+            this.gcPhone.Caption = "手机";
+            this.gcPhone.FieldName = "PhoneNumber";
+            this.gcPhone.Name = "gcPhone";
+            this.gcPhone.OptionsColumn.AllowEdit = false;
+            this.gcPhone.Visible = true;
+            this.gcPhone.VisibleIndex = 4;
+            this.gcPhone.Width = 209;
+            // 
+            // gcEmail
+            // 
+            this.gcEmail.Caption = "电子邮件";
+            this.gcEmail.FieldName = "Email";
+            this.gcEmail.Name = "gcEmail";
+            this.gcEmail.OptionsColumn.AllowEdit = false;
+            this.gcEmail.Visible = true;
+            this.gcEmail.VisibleIndex = 5;
+            this.gcEmail.Width = 209;
+            // 
+            // gcDeptName
+            // 
+            this.gcDeptName.Caption = "部门";
+            this.gcDeptName.FieldName = "DeptName";
+            this.gcDeptName.Name = "gcDeptName";
+            this.gcDeptName.OptionsColumn.AllowEdit = false;
+            this.gcDeptName.Visible = true;
+            this.gcDeptName.VisibleIndex = 6;
+            this.gcDeptName.Width = 209;
+            // 
+            // gcState
+            // 
+            this.gcState.Caption = "状态";
+            this.gcState.FieldName = "State";
+            this.gcState.Name = "gcState";
+            this.gcState.OptionsColumn.AllowEdit = false;
+            this.gcState.Visible = true;
+            this.gcState.VisibleIndex = 7;
+            this.gcState.Width = 226;
+            // 
+            // ilColumns
+            // 
+            this.ilColumns.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ilColumns.ImageStream")));
+            this.ilColumns.TransparentColor = System.Drawing.Color.Transparent;
+            this.ilColumns.Images.SetKeyName(0, "Importance.png");
+            this.ilColumns.Images.SetKeyName(1, "Icon.png");
+            this.ilColumns.Images.SetKeyName(2, "Attach.png");
+            this.ilColumns.Images.SetKeyName(3, "Whatched.png");
             // 
             // repositoryItemImageComboBox1
             // 
@@ -203,23 +253,6 @@
             this.repositoryItemImageComboBox1.Name = "repositoryItemImageComboBox1";
             this.repositoryItemImageComboBox1.SmallImages = this.icEditors;
             // 
-            // gcAttachment
-            // 
-            this.gcAttachment.Caption = "Attachment";
-            this.gcAttachment.ColumnEdit = this.repositoryItemImageComboBox3;
-            this.gcAttachment.FieldName = "Attachment";
-            this.gcAttachment.ImageIndex = 2;
-            this.gcAttachment.Name = "gcAttachment";
-            this.gcAttachment.OptionsColumn.AllowEdit = false;
-            this.gcAttachment.OptionsColumn.AllowFocus = false;
-            this.gcAttachment.OptionsColumn.AllowSize = false;
-            this.gcAttachment.OptionsColumn.FixedWidth = true;
-            this.gcAttachment.OptionsColumn.ShowCaption = false;
-            this.gcAttachment.ToolTip = "Attachment";
-            this.gcAttachment.Visible = true;
-            this.gcAttachment.VisibleIndex = 2;
-            this.gcAttachment.Width = 35;
-            // 
             // repositoryItemImageComboBox3
             // 
             this.repositoryItemImageComboBox3.AutoHeight = false;
@@ -230,59 +263,6 @@
             this.repositoryItemImageComboBox3.Name = "repositoryItemImageComboBox3";
             this.repositoryItemImageComboBox3.SmallImages = this.icEditors;
             // 
-            // gcSubject
-            // 
-            this.gcSubject.Caption = "Subject";
-            this.gcSubject.FieldName = "Subject";
-            this.gcSubject.Name = "gcSubject";
-            this.gcSubject.OptionsColumn.AllowFocus = false;
-            this.gcSubject.Visible = true;
-            this.gcSubject.VisibleIndex = 3;
-            this.gcSubject.Width = 341;
-            // 
-            // gcFrom
-            // 
-            this.gcFrom.Caption = "From";
-            this.gcFrom.FieldName = "From";
-            this.gcFrom.Name = "gcFrom";
-            this.gcFrom.OptionsColumn.AllowFocus = false;
-            this.gcFrom.Visible = true;
-            this.gcFrom.VisibleIndex = 4;
-            this.gcFrom.Width = 150;
-            // 
-            // gcDate
-            // 
-            this.gcDate.Caption = "Received";
-            this.gcDate.FieldName = "Date";
-            this.gcDate.GroupInterval = DevExpress.XtraGrid.ColumnGroupInterval.DateRange;
-            this.gcDate.Name = "gcDate";
-            this.gcDate.OptionsColumn.AllowFocus = false;
-            this.gcDate.OptionsFilter.FilterPopupMode = DevExpress.XtraGrid.Columns.FilterPopupMode.DateAlt;
-            this.gcDate.Visible = true;
-            this.gcDate.VisibleIndex = 5;
-            this.gcDate.Width = 123;
-            // 
-            // gcRead
-            // 
-            this.gcRead.ColumnEdit = this.repositoryItemImageComboBox4;
-            this.gcRead.FieldName = "Read";
-            this.gcRead.ImageAlignment = System.Drawing.StringAlignment.Center;
-            this.gcRead.ImageIndex = 3;
-            this.gcRead.Name = "gcRead";
-            this.gcRead.OptionsColumn.AllowEdit = false;
-            this.gcRead.OptionsColumn.AllowFocus = false;
-            this.gcRead.OptionsColumn.AllowGroup = DevExpress.Utils.DefaultBoolean.False;
-            this.gcRead.OptionsColumn.AllowShowHide = false;
-            this.gcRead.OptionsColumn.AllowSize = false;
-            this.gcRead.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
-            this.gcRead.OptionsColumn.FixedWidth = true;
-            this.gcRead.OptionsColumn.ShowCaption = false;
-            this.gcRead.OptionsFilter.AllowAutoFilter = false;
-            this.gcRead.OptionsFilter.AllowFilter = false;
-            this.gcRead.Visible = true;
-            this.gcRead.VisibleIndex = 6;
-            this.gcRead.Width = 25;
-            // 
             // repositoryItemImageComboBox4
             // 
             this.repositoryItemImageComboBox4.AutoHeight = false;
@@ -292,15 +272,6 @@
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Unread", 0, 5)});
             this.repositoryItemImageComboBox4.Name = "repositoryItemImageComboBox4";
             this.repositoryItemImageComboBox4.SmallImages = this.icEditors;
-            // 
-            // ilColumns
-            // 
-            this.ilColumns.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ilColumns.ImageStream")));
-            this.ilColumns.TransparentColor = System.Drawing.Color.Transparent;
-            this.ilColumns.Images.SetKeyName(0, "Importance.png");
-            this.ilColumns.Images.SetKeyName(1, "Icon.png");
-            this.ilColumns.Images.SetKeyName(2, "Attach.png");
-            this.ilColumns.Images.SetKeyName(3, "Whatched.png");
             // 
             // layoutControlGroup1
             // 
@@ -359,21 +330,22 @@
         private XtraLayout.LayoutControlItem lcList;
         private XtraGrid.GridControl gridControl1;
         private XtraGrid.Views.Grid.GridView gridView1;
-        private XtraGrid.Columns.GridColumn gcPriority;
         private XtraEditors.Repository.RepositoryItemImageComboBox repositoryItemImageComboBox1;
         private Utils.ImageCollection icEditors;
-        private XtraGrid.Columns.GridColumn gcIcon;
         private XtraEditors.Repository.RepositoryItemImageComboBox repositoryItemImageComboBox2;
-        private XtraGrid.Columns.GridColumn gcAttachment;
         private XtraEditors.Repository.RepositoryItemImageComboBox repositoryItemImageComboBox3;
-        private XtraGrid.Columns.GridColumn gcSubject;
-        private XtraGrid.Columns.GridColumn gcFrom;
-        private XtraGrid.Columns.GridColumn gcDate;
-        private XtraGrid.Columns.GridColumn gcRead;
+        private XtraGrid.Columns.GridColumn gcUserName;
         private XtraEditors.Repository.RepositoryItemImageComboBox repositoryItemImageComboBox4;
         private System.Windows.Forms.ImageList ilColumns;
         private XtraLayout.LayoutControlGroup layoutControlGroup1;
         private XtraLayout.LayoutControl layoutControl1;
+        private XtraGrid.Columns.GridColumn gcID;
+        private XtraGrid.Columns.GridColumn gcRealName;
+        private XtraGrid.Columns.GridColumn gcSex;
+        private XtraGrid.Columns.GridColumn gcPhone;
+        private XtraGrid.Columns.GridColumn gcEmail;
+        private XtraGrid.Columns.GridColumn gcDeptName;
+        private XtraGrid.Columns.GridColumn gcState;
 
     }
 }

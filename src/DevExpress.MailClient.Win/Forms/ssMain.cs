@@ -14,7 +14,7 @@ namespace DevExpress.MailClient.Win.Forms {
             DevExpress.Utils.LocalizationHelper.SetCurrentCulture(DataHelper.ApplicationArguments);
             InitializeComponent();
             labelControl1.Text = string.Format("{0}{1}", labelControl1.Text, GetYearString());
-            pictureEdit2.Image = global::DevExpress.MailClient.Win.Properties.Resources.SplashScreen;
+            pictureEdit2.Image = global::DevExpress.MailClient.Win.Properties.Resources.Œﬁ±ÍÃ‚;
             Timer tmr = new Timer();
             tmr.Interval = 400;
             tmr.Tick += new EventHandler(tmr_Tick);

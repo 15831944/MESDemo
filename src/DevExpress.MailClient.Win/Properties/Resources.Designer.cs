@@ -61,6 +61,46 @@ namespace DevExpress.MailClient.Win.Properties {
         }
         
         /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap _20131123033823248_easyicon_net_72 {
+            get {
+                object obj = ResourceManager.GetObject("20131123033823248_easyicon_net_72", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap _20131123034022474_easyicon_net_72 {
+            get {
+                object obj = ResourceManager.GetObject("20131123034022474_easyicon_net_72", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap _20131123034124678_easyicon_net_48 {
+            get {
+                object obj = ResourceManager.GetObject("20131123034124678_easyicon_net_48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap _20131123034236457_easyicon_net_72 {
+            get {
+                object obj = ResourceManager.GetObject("20131123034236457_easyicon_net_72", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Steve Broad 的本地化字符串。
         /// </summary>
         internal static string AboutFrom {
@@ -120,6 +160,16 @@ namespace DevExpress.MailClient.Win.Properties {
         internal static string AppointmentError {
             get {
                 return ResourceManager.GetString("AppointmentError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow {
+            get {
+                object obj = ResourceManager.GetObject("arrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -3195,6 +3245,26 @@ namespace DevExpress.MailClient.Win.Properties {
         internal static string XLSXFilter {
             get {
                 return ResourceManager.GetString("XLSXFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 无标题 {
+            get {
+                object obj = ResourceManager.GetObject("无标题", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 起始页副本 {
+            get {
+                object obj = ResourceManager.GetObject("起始页副本", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

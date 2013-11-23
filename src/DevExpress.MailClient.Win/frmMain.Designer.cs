@@ -25,22 +25,22 @@
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup4 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem14 = new DevExpress.XtraBars.Ribbon.GalleryItem();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem15 = new DevExpress.XtraBars.Ribbon.GalleryItem();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem16 = new DevExpress.XtraBars.Ribbon.GalleryItem();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem17 = new DevExpress.XtraBars.Ribbon.GalleryItem();
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup5 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem18 = new DevExpress.XtraBars.Ribbon.GalleryItem();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem19 = new DevExpress.XtraBars.Ribbon.GalleryItem();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem20 = new DevExpress.XtraBars.Ribbon.GalleryItem();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem21 = new DevExpress.XtraBars.Ribbon.GalleryItem();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem22 = new DevExpress.XtraBars.Ribbon.GalleryItem();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem23 = new DevExpress.XtraBars.Ribbon.GalleryItem();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem24 = new DevExpress.XtraBars.Ribbon.GalleryItem();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem25 = new DevExpress.XtraBars.Ribbon.GalleryItem();
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup6 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
-            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem26 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup1 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem1 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem2 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem3 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem4 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup2 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem5 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem6 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem7 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem8 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem9 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem10 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem11 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem12 = new DevExpress.XtraBars.Ribbon.GalleryItem();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup3 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItem galleryItem13 = new DevExpress.XtraBars.Ribbon.GalleryItem();
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.backstageViewControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewControl();
             this.bvbiExit = new DevExpress.XtraBars.Ribbon.BackstageViewButtonItem();
@@ -150,12 +150,12 @@
             this.ucMonitorTree1 = new DevExpress.MailClient.Win.Controls.ucMonitorTree();
             this.navBarGroupControlContainer6 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
             this.ucProcessTree1 = new DevExpress.MailClient.Win.Controls.ucProcessTree();
-            this.nbgLine = new DevExpress.XtraNavBar.NavBarGroup();
-            this.nbgPlan = new DevExpress.XtraNavBar.NavBarGroup();
-            this.nbgDevice = new DevExpress.XtraNavBar.NavBarGroup();
             this.nbgMonitor = new DevExpress.XtraNavBar.NavBarGroup();
-            this.nbgProcess = new DevExpress.XtraNavBar.NavBarGroup();
+            this.nbgPlan = new DevExpress.XtraNavBar.NavBarGroup();
             this.nbgReport = new DevExpress.XtraNavBar.NavBarGroup();
+            this.nbgLine = new DevExpress.XtraNavBar.NavBarGroup();
+            this.nbgDevice = new DevExpress.XtraNavBar.NavBarGroup();
+            this.nbgProcess = new DevExpress.XtraNavBar.NavBarGroup();
             this.pcMain = new DevExpress.XtraEditors.PanelControl();
             this.pmTreeView = new DevExpress.XtraBars.PopupMenu(this.components);
             this.pmMessage = new DevExpress.XtraBars.PopupMenu(this.components);
@@ -571,27 +571,27 @@
             this.rgbiCurrentView.Gallery.Appearance.ItemCaptionAppearance.Pressed.Options.UseTextOptions = true;
             this.rgbiCurrentView.Gallery.Appearance.ItemCaptionAppearance.Pressed.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.rgbiCurrentView.Gallery.ColumnCount = 4;
-            resources.ApplyResources(galleryItemGroup4, "galleryItemGroup4");
-            resources.ApplyResources(galleryItem14, "galleryItem14");
-            galleryItem14.Checked = true;
-            galleryItem14.Image = global::DevExpress.MailClient.Win.Properties.Resources.List_32x32;
-            galleryItem14.Tag = "List";
-            resources.ApplyResources(galleryItem15, "galleryItem15");
-            galleryItem15.Image = global::DevExpress.MailClient.Win.Properties.Resources.SortAsc_32x32;
-            galleryItem15.Tag = "Alphabetical";
-            resources.ApplyResources(galleryItem16, "galleryItem16");
-            galleryItem16.Image = global::DevExpress.MailClient.Win.Properties.Resources.ByState_32x32;
-            galleryItem16.Tag = "ByState";
-            resources.ApplyResources(galleryItem17, "galleryItem17");
-            galleryItem17.Image = global::DevExpress.MailClient.Win.Properties.Resources.Card_32x32;
-            galleryItem17.Tag = "Card";
-            galleryItemGroup4.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
-            galleryItem14,
-            galleryItem15,
-            galleryItem16,
-            galleryItem17});
+            resources.ApplyResources(galleryItemGroup1, "galleryItemGroup1");
+            resources.ApplyResources(galleryItem1, "galleryItem1");
+            galleryItem1.Checked = true;
+            galleryItem1.Image = global::DevExpress.MailClient.Win.Properties.Resources.List_32x32;
+            galleryItem1.Tag = "List";
+            resources.ApplyResources(galleryItem2, "galleryItem2");
+            galleryItem2.Image = global::DevExpress.MailClient.Win.Properties.Resources.SortAsc_32x32;
+            galleryItem2.Tag = "Alphabetical";
+            resources.ApplyResources(galleryItem3, "galleryItem3");
+            galleryItem3.Image = global::DevExpress.MailClient.Win.Properties.Resources.ByState_32x32;
+            galleryItem3.Tag = "ByState";
+            resources.ApplyResources(galleryItem4, "galleryItem4");
+            galleryItem4.Image = global::DevExpress.MailClient.Win.Properties.Resources.Card_32x32;
+            galleryItem4.Tag = "Card";
+            galleryItemGroup1.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
+            galleryItem1,
+            galleryItem2,
+            galleryItem3,
+            galleryItem4});
             this.rgbiCurrentView.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup4});
+            galleryItemGroup1});
             this.rgbiCurrentView.Gallery.ImageSize = new System.Drawing.Size(32, 32);
             this.rgbiCurrentView.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio;
             this.rgbiCurrentView.Gallery.RowCount = 1;
@@ -686,43 +686,43 @@
             this.rgbiCurrentViewTasks.Gallery.Appearance.ItemCaptionAppearance.Pressed.Options.UseTextOptions = true;
             this.rgbiCurrentViewTasks.Gallery.Appearance.ItemCaptionAppearance.Pressed.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.rgbiCurrentViewTasks.Gallery.ColumnCount = 4;
-            resources.ApplyResources(galleryItemGroup5, "galleryItemGroup5");
-            resources.ApplyResources(galleryItem18, "galleryItem18");
-            galleryItem18.Image = global::DevExpress.MailClient.Win.Properties.Resources.ListByDate_32x32;
-            galleryItem18.Tag = "TaskList";
-            resources.ApplyResources(galleryItem19, "galleryItem19");
-            galleryItem19.Image = global::DevExpress.MailClient.Win.Properties.Resources.ToDoList_32x32;
-            galleryItem19.Tag = "TaskToDoList";
-            resources.ApplyResources(galleryItem20, "galleryItem20");
-            galleryItem20.Image = global::DevExpress.MailClient.Win.Properties.Resources.Completed_32x32;
-            galleryItem20.Tag = "TaskCompleted";
-            resources.ApplyResources(galleryItem21, "galleryItem21");
-            galleryItem21.Image = global::DevExpress.MailClient.Win.Properties.Resources.Today_32x32;
-            galleryItem21.Tag = "TaskToday";
-            resources.ApplyResources(galleryItem22, "galleryItem22");
-            galleryItem22.Image = global::DevExpress.MailClient.Win.Properties.Resources.Prioritized_32x32;
-            galleryItem22.Tag = "TaskPrioritized";
-            resources.ApplyResources(galleryItem23, "galleryItem23");
-            galleryItem23.Image = global::DevExpress.MailClient.Win.Properties.Resources.Overdue_32x32;
-            galleryItem23.Tag = "TaskOverdue";
-            resources.ApplyResources(galleryItem24, "galleryItem24");
-            galleryItem24.Image = global::DevExpress.MailClient.Win.Properties.Resources.List_32x32;
-            galleryItem24.Tag = "TaskSimpleList";
-            resources.ApplyResources(galleryItem25, "galleryItem25");
-            galleryItem25.Checked = true;
-            galleryItem25.Image = global::DevExpress.MailClient.Win.Properties.Resources.Deferred_32x32;
-            galleryItem25.Tag = "TaskDeferred";
-            galleryItemGroup5.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
-            galleryItem18,
-            galleryItem19,
-            galleryItem20,
-            galleryItem21,
-            galleryItem22,
-            galleryItem23,
-            galleryItem24,
-            galleryItem25});
+            resources.ApplyResources(galleryItemGroup2, "galleryItemGroup2");
+            resources.ApplyResources(galleryItem5, "galleryItem5");
+            galleryItem5.Image = global::DevExpress.MailClient.Win.Properties.Resources.ListByDate_32x32;
+            galleryItem5.Tag = "TaskList";
+            resources.ApplyResources(galleryItem6, "galleryItem6");
+            galleryItem6.Image = global::DevExpress.MailClient.Win.Properties.Resources.ToDoList_32x32;
+            galleryItem6.Tag = "TaskToDoList";
+            resources.ApplyResources(galleryItem7, "galleryItem7");
+            galleryItem7.Image = global::DevExpress.MailClient.Win.Properties.Resources.Completed_32x32;
+            galleryItem7.Tag = "TaskCompleted";
+            resources.ApplyResources(galleryItem8, "galleryItem8");
+            galleryItem8.Image = global::DevExpress.MailClient.Win.Properties.Resources.Today_32x32;
+            galleryItem8.Tag = "TaskToday";
+            resources.ApplyResources(galleryItem9, "galleryItem9");
+            galleryItem9.Image = global::DevExpress.MailClient.Win.Properties.Resources.Prioritized_32x32;
+            galleryItem9.Tag = "TaskPrioritized";
+            resources.ApplyResources(galleryItem10, "galleryItem10");
+            galleryItem10.Image = global::DevExpress.MailClient.Win.Properties.Resources.Overdue_32x32;
+            galleryItem10.Tag = "TaskOverdue";
+            resources.ApplyResources(galleryItem11, "galleryItem11");
+            galleryItem11.Image = global::DevExpress.MailClient.Win.Properties.Resources.List_32x32;
+            galleryItem11.Tag = "TaskSimpleList";
+            resources.ApplyResources(galleryItem12, "galleryItem12");
+            galleryItem12.Checked = true;
+            galleryItem12.Image = global::DevExpress.MailClient.Win.Properties.Resources.Deferred_32x32;
+            galleryItem12.Tag = "TaskDeferred";
+            galleryItemGroup2.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
+            galleryItem5,
+            galleryItem6,
+            galleryItem7,
+            galleryItem8,
+            galleryItem9,
+            galleryItem10,
+            galleryItem11,
+            galleryItem12});
             this.rgbiCurrentViewTasks.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup5});
+            galleryItemGroup2});
             this.rgbiCurrentViewTasks.Gallery.ImageSize = new System.Drawing.Size(32, 32);
             this.rgbiCurrentViewTasks.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio;
             this.rgbiCurrentViewTasks.Gallery.RowCount = 2;
@@ -1081,14 +1081,14 @@
             this.galleryControl1.Gallery.BackColor = System.Drawing.Color.Transparent;
             this.galleryControl1.Gallery.ColumnCount = 1;
             this.galleryControl1.Gallery.FixedImageSize = false;
-            resources.ApplyResources(galleryItemGroup6, "galleryItemGroup6");
-            resources.ApplyResources(galleryItem26, "galleryItem26");
-            galleryItem26.Image = global::DevExpress.MailClient.Win.Properties.Resources.OpenClendar_64x64;
-            galleryItem26.Tag = "OpenCalendar";
-            galleryItemGroup6.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
-            galleryItem26});
+            resources.ApplyResources(galleryItemGroup3, "galleryItemGroup3");
+            resources.ApplyResources(galleryItem13, "galleryItem13");
+            galleryItem13.Image = global::DevExpress.MailClient.Win.Properties.Resources.OpenClendar_64x64;
+            galleryItem13.Tag = "OpenCalendar";
+            galleryItemGroup3.Items.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItem[] {
+            galleryItem13});
             this.galleryControl1.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup6});
+            galleryItemGroup3});
             this.galleryControl1.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Left;
             this.galleryControl1.Gallery.ShowGroupCaption = false;
             this.galleryControl1.Gallery.ShowItemText = true;
@@ -1125,17 +1125,17 @@
             this.navBarControl1.Controls.Add(this.navBarGroupControlContainer6);
             resources.ApplyResources(this.navBarControl1, "navBarControl1");
             this.navBarControl1.Groups.AddRange(new DevExpress.XtraNavBar.NavBarGroup[] {
+            this.nbgMonitor,
+            this.nbgPlan,
+            this.nbgReport,
             this.nbgSystem,
             this.nbgLine,
-            this.nbgPlan,
             this.nbgDevice,
-            this.nbgMonitor,
-            this.nbgProcess,
-            this.nbgReport});
+            this.nbgProcess});
             this.navBarControl1.MenuManager = this.ribbonControl1;
             this.navBarControl1.Name = "navBarControl1";
             this.navBarControl1.NavigationPaneGroupClientHeight = 320;
-            this.navBarControl1.OptionsNavPane.ExpandedWidth = ((int)(resources.GetObject("resource.ExpandedWidth")));
+            this.navBarControl1.OptionsNavPane.ExpandedWidth = ((int)(resources.GetObject("resource.ExpandedWidth1")));
             this.navBarControl1.View = new DevExpress.XtraNavBar.ViewInfo.SkinNavigationPaneViewInfoRegistrator();
             this.navBarControl1.NavPaneStateChanged += new System.EventHandler(this.navBarControl1_NavPaneStateChanged);
             this.navBarControl1.ActiveGroupChanged += new DevExpress.XtraNavBar.NavBarGroupEventHandler(this.navBarControl1_ActiveGroupChanged);
@@ -1208,7 +1208,7 @@
             this.navBarControl2.AllowSelectedLink = true;
             resources.ApplyResources(this.navBarControl2, "navBarControl2");
             this.navBarControl2.Name = "navBarControl2";
-            this.navBarControl2.OptionsNavPane.ExpandedWidth = ((int)(resources.GetObject("resource.ExpandedWidth1")));
+            this.navBarControl2.OptionsNavPane.ExpandedWidth = ((int)(resources.GetObject("resource.ExpandedWidth")));
             // 
             // navBarGroupControlContainer5
             // 
@@ -1243,17 +1243,16 @@
             resources.ApplyResources(this.ucProcessTree1, "ucProcessTree1");
             this.ucProcessTree1.Name = "ucProcessTree1";
             // 
-            // nbgLine
+            // nbgMonitor
             // 
-            resources.ApplyResources(this.nbgLine, "nbgLine");
-            this.nbgLine.ControlContainer = this.navBarGroupControlContainer2;
-            this.nbgLine.DragDropFlags = DevExpress.XtraNavBar.NavBarDragDrop.None;
-            this.nbgLine.GroupCaptionUseImage = DevExpress.XtraNavBar.NavBarImage.Large;
-            this.nbgLine.GroupClientHeight = 40;
-            this.nbgLine.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
-            this.nbgLine.LargeImage = global::DevExpress.MailClient.Win.Properties.Resources.Today_32x32;
-            this.nbgLine.Name = "nbgLine";
-            this.nbgLine.SmallImage = global::DevExpress.MailClient.Win.Properties.Resources.Today_16x16;
+            resources.ApplyResources(this.nbgMonitor, "nbgMonitor");
+            this.nbgMonitor.ControlContainer = this.navBarGroupControlContainer7;
+            this.nbgMonitor.GroupCaptionUseImage = DevExpress.XtraNavBar.NavBarImage.Large;
+            this.nbgMonitor.GroupClientHeight = 40;
+            this.nbgMonitor.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
+            this.nbgMonitor.LargeImage = global::DevExpress.MailClient.Win.Properties.Resources.BO_Task_Large;
+            this.nbgMonitor.Name = "nbgMonitor";
+            this.nbgMonitor.SmallImage = global::DevExpress.MailClient.Win.Properties.Resources.BO_Task;
             // 
             // nbgPlan
             // 
@@ -1267,6 +1266,29 @@
             this.nbgPlan.Name = "nbgPlan";
             this.nbgPlan.SmallImage = global::DevExpress.MailClient.Win.Properties.Resources.Contact_16x16;
             // 
+            // nbgReport
+            // 
+            resources.ApplyResources(this.nbgReport, "nbgReport");
+            this.nbgReport.ControlContainer = this.navBarGroupControlContainer5;
+            this.nbgReport.GroupCaptionUseImage = DevExpress.XtraNavBar.NavBarImage.Large;
+            this.nbgReport.GroupClientHeight = 40;
+            this.nbgReport.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
+            this.nbgReport.LargeImage = global::DevExpress.MailClient.Win.Properties.Resources.Today_32x32;
+            this.nbgReport.Name = "nbgReport";
+            this.nbgReport.SmallImage = global::DevExpress.MailClient.Win.Properties.Resources.Today_16x16;
+            // 
+            // nbgLine
+            // 
+            resources.ApplyResources(this.nbgLine, "nbgLine");
+            this.nbgLine.ControlContainer = this.navBarGroupControlContainer2;
+            this.nbgLine.DragDropFlags = DevExpress.XtraNavBar.NavBarDragDrop.None;
+            this.nbgLine.GroupCaptionUseImage = DevExpress.XtraNavBar.NavBarImage.Large;
+            this.nbgLine.GroupClientHeight = 40;
+            this.nbgLine.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
+            this.nbgLine.LargeImage = global::DevExpress.MailClient.Win.Properties.Resources.Today_32x32;
+            this.nbgLine.Name = "nbgLine";
+            this.nbgLine.SmallImage = global::DevExpress.MailClient.Win.Properties.Resources.Today_16x16;
+            // 
             // nbgDevice
             // 
             resources.ApplyResources(this.nbgDevice, "nbgDevice");
@@ -1279,17 +1301,6 @@
             this.nbgDevice.Name = "nbgDevice";
             this.nbgDevice.SmallImage = global::DevExpress.MailClient.Win.Properties.Resources.BO_Feeds;
             // 
-            // nbgMonitor
-            // 
-            resources.ApplyResources(this.nbgMonitor, "nbgMonitor");
-            this.nbgMonitor.ControlContainer = this.navBarGroupControlContainer7;
-            this.nbgMonitor.GroupCaptionUseImage = DevExpress.XtraNavBar.NavBarImage.Large;
-            this.nbgMonitor.GroupClientHeight = 40;
-            this.nbgMonitor.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
-            this.nbgMonitor.LargeImage = global::DevExpress.MailClient.Win.Properties.Resources.BO_Task_Large;
-            this.nbgMonitor.Name = "nbgMonitor";
-            this.nbgMonitor.SmallImage = global::DevExpress.MailClient.Win.Properties.Resources.BO_Task;
-            // 
             // nbgProcess
             // 
             resources.ApplyResources(this.nbgProcess, "nbgProcess");
@@ -1300,16 +1311,6 @@
             this.nbgProcess.LargeImage = global::DevExpress.MailClient.Win.Properties.Resources.Contact_32x32;
             this.nbgProcess.Name = "nbgProcess";
             this.nbgProcess.SmallImage = global::DevExpress.MailClient.Win.Properties.Resources.Contact_16x16;
-            // 
-            // nbgReport
-            // 
-            resources.ApplyResources(this.nbgReport, "nbgReport");
-            this.nbgReport.ControlContainer = this.navBarGroupControlContainer5;
-            this.nbgReport.GroupClientHeight = 40;
-            this.nbgReport.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
-            this.nbgReport.LargeImage = global::DevExpress.MailClient.Win.Properties.Resources.Today_32x32;
-            this.nbgReport.Name = "nbgReport";
-            this.nbgReport.SmallImage = global::DevExpress.MailClient.Win.Properties.Resources.Today_16x16;
             // 
             // pcMain
             // 

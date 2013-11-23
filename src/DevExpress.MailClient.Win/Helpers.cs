@@ -31,6 +31,18 @@ namespace DevExpress.MailClient.Win {
                     GetChildDataRowHandles(view, row, list);
             }
         }
+
+        public static void GetUserDataRowHandles(GridView view, int rowHandle, List<User> list)
+        {
+            for (int i = 0; i < view.GetChildRowCount(rowHandle); i++)
+            {
+                int row = view.GetChildRowHandle(rowHandle, i);
+                if (row >= 0)
+                    list.Add(view.GetRow(row) as User);
+                else
+                    GetUserDataRowHandles(view, row, list);
+            }
+        }
         public static void SetFindControlImages(GridControl grid) {
             FindControl fControl = null;
             foreach(Control ctrl in grid.Controls) {

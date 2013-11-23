@@ -299,19 +299,19 @@
   <data name="rgbiCurrentView.Gallery.Appearance.ItemCaptionAppearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 8.25pt</value>
   </data>
-  <data name="galleryItemGroup4.Caption" xml:space="preserve">
+  <data name="galleryItemGroup1.Caption" xml:space="preserve">
     <value>Group1</value>
   </data>
-  <data name="galleryItem14.Caption" xml:space="preserve">
+  <data name="galleryItem1.Caption" xml:space="preserve">
     <value>List</value>
   </data>
-  <data name="galleryItem15.Caption" xml:space="preserve">
+  <data name="galleryItem2.Caption" xml:space="preserve">
     <value>Alphabetical</value>
   </data>
-  <data name="galleryItem16.Caption" xml:space="preserve">
+  <data name="galleryItem3.Caption" xml:space="preserve">
     <value>By State</value>
   </data>
-  <data name="galleryItem17.Caption" xml:space="preserve">
+  <data name="galleryItem4.Caption" xml:space="preserve">
     <value>Card</value>
   </data>
   <data name="beiZoom.Width" type="System.Int32, mscorlib">
@@ -344,31 +344,31 @@
   <data name="rgbiCurrentViewTasks.Gallery.Appearance.ItemCaptionAppearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 8.25pt</value>
   </data>
-  <data name="galleryItemGroup5.Caption" xml:space="preserve">
+  <data name="galleryItemGroup2.Caption" xml:space="preserve">
     <value>Group1</value>
   </data>
-  <data name="galleryItem18.Caption" xml:space="preserve">
+  <data name="galleryItem5.Caption" xml:space="preserve">
     <value>List by Date</value>
   </data>
-  <data name="galleryItem19.Caption" xml:space="preserve">
+  <data name="galleryItem6.Caption" xml:space="preserve">
     <value>To-Do List</value>
   </data>
-  <data name="galleryItem20.Caption" xml:space="preserve">
+  <data name="galleryItem7.Caption" xml:space="preserve">
     <value>Completed</value>
   </data>
-  <data name="galleryItem21.Caption" xml:space="preserve">
+  <data name="galleryItem8.Caption" xml:space="preserve">
     <value>Today</value>
   </data>
-  <data name="galleryItem22.Caption" xml:space="preserve">
+  <data name="galleryItem9.Caption" xml:space="preserve">
     <value>Prioritized</value>
   </data>
-  <data name="galleryItem23.Caption" xml:space="preserve">
+  <data name="galleryItem10.Caption" xml:space="preserve">
     <value>Overdue</value>
   </data>
-  <data name="galleryItem24.Caption" xml:space="preserve">
+  <data name="galleryItem11.Caption" xml:space="preserve">
     <value>Simple List</value>
   </data>
-  <data name="galleryItem25.Caption" xml:space="preserve">
+  <data name="galleryItem12.Caption" xml:space="preserve">
     <value>Deferred</value>
   </data>
   <data name="bbiTodayFlag.Caption" xml:space="preserve">
@@ -496,13 +496,13 @@
   <data name="galleryControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="galleryItemGroup6.Caption" xml:space="preserve">
+  <data name="galleryItemGroup3.Caption" xml:space="preserve">
     <value>Group1</value>
   </data>
-  <data name="galleryItem26.Caption" xml:space="preserve">
+  <data name="galleryItem13.Caption" xml:space="preserve">
     <value>Open Calendar</value>
   </data>
-  <data name="galleryItem26.Description" xml:space="preserve">
+  <data name="galleryItem13.Description" xml:space="preserve">
     <value>Open a calendar file (.ics)</value>
   </data>
   <data name="galleryControl1.Location" type="System.Drawing.Point, System.Drawing">
@@ -604,6 +604,18 @@
   <data name="&gt;&gt;navBarGroupControlContainer1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="ucLineTree1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ucLineTree1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucLineTree1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 335</value>
+  </data>
+  <data name="ucLineTree1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;ucLineTree1.Name" xml:space="preserve">
     <value>ucLineTree1</value>
   </data>
@@ -633,6 +645,18 @@
   </data>
   <data name="&gt;&gt;navBarGroupControlContainer2.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="ucPlanTree1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ucPlanTree1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucPlanTree1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 335</value>
+  </data>
+  <data name="ucPlanTree1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;ucPlanTree1.Name" xml:space="preserve">
     <value>ucPlanTree1</value>
@@ -664,6 +688,18 @@
   <data name="&gt;&gt;navBarGroupControlContainer3.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="ucDeviceTree1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ucDeviceTree1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucDeviceTree1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 335</value>
+  </data>
+  <data name="ucDeviceTree1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;ucDeviceTree1.Name" xml:space="preserve">
     <value>ucDeviceTree1</value>
   </data>
@@ -675,6 +711,24 @@
   </data>
   <data name="&gt;&gt;ucDeviceTree1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="navBarControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="navBarControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.ExpandedWidth" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="navBarControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 335</value>
+  </data>
+  <data name="navBarControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="navBarControl2.Text" xml:space="preserve">
+    <value>navBarControl2</value>
   </data>
   <data name="&gt;&gt;navBarControl2.Name" xml:space="preserve">
     <value>navBarControl2</value>
@@ -706,6 +760,18 @@
   <data name="&gt;&gt;navBarGroupControlContainer4.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="ucReportTree1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ucReportTree1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucReportTree1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 335</value>
+  </data>
+  <data name="ucReportTree1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;ucReportTree1.Name" xml:space="preserve">
     <value>ucReportTree1</value>
   </data>
@@ -736,6 +802,18 @@
   <data name="&gt;&gt;navBarGroupControlContainer5.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="ucMonitorTree1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ucMonitorTree1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucMonitorTree1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 335</value>
+  </data>
+  <data name="ucMonitorTree1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;ucMonitorTree1.Name" xml:space="preserve">
     <value>ucMonitorTree1</value>
   </data>
@@ -765,6 +843,18 @@
   </data>
   <data name="&gt;&gt;navBarGroupControlContainer7.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="ucProcessTree1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ucProcessTree1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucProcessTree1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 335</value>
+  </data>
+  <data name="ucProcessTree1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;ucProcessTree1.Name" xml:space="preserve">
     <value>ucProcessTree1</value>
@@ -799,28 +889,28 @@
   <data name="navBarControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="nbgLine.Caption" xml:space="preserve">
-    <value>生产线管理</value>
+  <data name="nbgMonitor.Caption" xml:space="preserve">
+    <value>监控管理</value>
   </data>
   <data name="nbgPlan.Caption" xml:space="preserve">
     <value>生产计划管理</value>
   </data>
+  <data name="nbgReport.Caption" xml:space="preserve">
+    <value>报表管理</value>
+  </data>
+  <data name="nbgLine.Caption" xml:space="preserve">
+    <value>生产线管理</value>
+  </data>
   <data name="nbgDevice.Caption" xml:space="preserve">
     <value>设备管理</value>
-  </data>
-  <data name="nbgMonitor.Caption" xml:space="preserve">
-    <value>监控管理</value>
   </data>
   <data name="nbgProcess.Caption" xml:space="preserve">
     <value>产品过程记录</value>
   </data>
-  <data name="nbgReport.Caption" xml:space="preserve">
-    <value>报表管理</value>
-  </data>
   <data name="navBarControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 50</value>
   </data>
-  <data name="resource.ExpandedWidth" type="System.Int32, mscorlib">
+  <data name="resource.ExpandedWidth1" type="System.Int32, mscorlib">
     <value>210</value>
   </data>
   <data name="navBarControl1.Size" type="System.Drawing.Size, System.Drawing">
@@ -843,180 +933,6 @@
   </data>
   <data name="&gt;&gt;navBarControl1.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="ucLineTree1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ucLineTree1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ucLineTree1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 335</value>
-  </data>
-  <data name="ucLineTree1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ucLineTree1.Name" xml:space="preserve">
-    <value>ucLineTree1</value>
-  </data>
-  <data name="&gt;&gt;ucLineTree1.Type" xml:space="preserve">
-    <value>DevExpress.MailClient.Win.Controls.ucLineTree, DevExpress.MailClient.Win, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ucLineTree1.Parent" xml:space="preserve">
-    <value>navBarGroupControlContainer2</value>
-  </data>
-  <data name="&gt;&gt;ucLineTree1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ucPlanTree1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ucPlanTree1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ucPlanTree1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 335</value>
-  </data>
-  <data name="ucPlanTree1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ucPlanTree1.Name" xml:space="preserve">
-    <value>ucPlanTree1</value>
-  </data>
-  <data name="&gt;&gt;ucPlanTree1.Type" xml:space="preserve">
-    <value>DevExpress.MailClient.Win.Controls.ucPlanTree, DevExpress.MailClient.Win, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ucPlanTree1.Parent" xml:space="preserve">
-    <value>navBarGroupControlContainer3</value>
-  </data>
-  <data name="&gt;&gt;ucPlanTree1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ucDeviceTree1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ucDeviceTree1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ucDeviceTree1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 335</value>
-  </data>
-  <data name="ucDeviceTree1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;ucDeviceTree1.Name" xml:space="preserve">
-    <value>ucDeviceTree1</value>
-  </data>
-  <data name="&gt;&gt;ucDeviceTree1.Type" xml:space="preserve">
-    <value>DevExpress.MailClient.Win.Controls.ucDeviceTree, DevExpress.MailClient.Win, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ucDeviceTree1.Parent" xml:space="preserve">
-    <value>navBarGroupControlContainer4</value>
-  </data>
-  <data name="&gt;&gt;ucDeviceTree1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="navBarControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="navBarControl2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="resource.ExpandedWidth1" type="System.Int32, mscorlib">
-    <value>210</value>
-  </data>
-  <data name="navBarControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 335</value>
-  </data>
-  <data name="navBarControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="navBarControl2.Text" xml:space="preserve">
-    <value>navBarControl2</value>
-  </data>
-  <data name="&gt;&gt;navBarControl2.Name" xml:space="preserve">
-    <value>navBarControl2</value>
-  </data>
-  <data name="&gt;&gt;navBarControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraNavBar.NavBarControl, DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;navBarControl2.Parent" xml:space="preserve">
-    <value>navBarGroupControlContainer4</value>
-  </data>
-  <data name="&gt;&gt;navBarControl2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ucReportTree1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ucReportTree1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ucReportTree1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 335</value>
-  </data>
-  <data name="ucReportTree1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ucReportTree1.Name" xml:space="preserve">
-    <value>ucReportTree1</value>
-  </data>
-  <data name="&gt;&gt;ucReportTree1.Type" xml:space="preserve">
-    <value>DevExpress.MailClient.Win.Controls.ucReportTree, DevExpress.MailClient.Win, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ucReportTree1.Parent" xml:space="preserve">
-    <value>navBarGroupControlContainer5</value>
-  </data>
-  <data name="&gt;&gt;ucReportTree1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ucMonitorTree1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ucMonitorTree1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ucMonitorTree1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 335</value>
-  </data>
-  <data name="ucMonitorTree1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ucMonitorTree1.Name" xml:space="preserve">
-    <value>ucMonitorTree1</value>
-  </data>
-  <data name="&gt;&gt;ucMonitorTree1.Type" xml:space="preserve">
-    <value>DevExpress.MailClient.Win.Controls.ucMonitorTree, DevExpress.MailClient.Win, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ucMonitorTree1.Parent" xml:space="preserve">
-    <value>navBarGroupControlContainer7</value>
-  </data>
-  <data name="&gt;&gt;ucMonitorTree1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ucProcessTree1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ucProcessTree1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ucProcessTree1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 335</value>
-  </data>
-  <data name="ucProcessTree1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ucProcessTree1.Name" xml:space="preserve">
-    <value>ucProcessTree1</value>
-  </data>
-  <data name="&gt;&gt;ucProcessTree1.Type" xml:space="preserve">
-    <value>DevExpress.MailClient.Win.Controls.ucProcessTree, DevExpress.MailClient.Win, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ucProcessTree1.Parent" xml:space="preserve">
-    <value>navBarGroupControlContainer6</value>
-  </data>
-  <data name="&gt;&gt;ucProcessTree1.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="pcMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1844,10 +1760,10 @@
   <data name="&gt;&gt;nbgSystem.Type" xml:space="preserve">
     <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;nbgLine.Name" xml:space="preserve">
-    <value>nbgLine</value>
+  <data name="&gt;&gt;nbgMonitor.Name" xml:space="preserve">
+    <value>nbgMonitor</value>
   </data>
-  <data name="&gt;&gt;nbgLine.Type" xml:space="preserve">
+  <data name="&gt;&gt;nbgMonitor.Type" xml:space="preserve">
     <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;nbgPlan.Name" xml:space="preserve">
@@ -1856,28 +1772,28 @@
   <data name="&gt;&gt;nbgPlan.Type" xml:space="preserve">
     <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
+  <data name="&gt;&gt;nbgReport.Name" xml:space="preserve">
+    <value>nbgReport</value>
+  </data>
+  <data name="&gt;&gt;nbgReport.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbgLine.Name" xml:space="preserve">
+    <value>nbgLine</value>
+  </data>
+  <data name="&gt;&gt;nbgLine.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="&gt;&gt;nbgDevice.Name" xml:space="preserve">
     <value>nbgDevice</value>
   </data>
   <data name="&gt;&gt;nbgDevice.Type" xml:space="preserve">
     <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;nbgMonitor.Name" xml:space="preserve">
-    <value>nbgMonitor</value>
-  </data>
-  <data name="&gt;&gt;nbgMonitor.Type" xml:space="preserve">
-    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
   <data name="&gt;&gt;nbgProcess.Name" xml:space="preserve">
     <value>nbgProcess</value>
   </data>
   <data name="&gt;&gt;nbgProcess.Type" xml:space="preserve">
-    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;nbgReport.Name" xml:space="preserve">
-    <value>nbgReport</value>
-  </data>
-  <data name="&gt;&gt;nbgReport.Type" xml:space="preserve">
     <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;pmTreeView.Name" xml:space="preserve">

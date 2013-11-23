@@ -42,11 +42,13 @@ namespace DevExpress.MailClient.Win.Forms {
             // 
             // pictureEdit1
             // 
+            resources.ApplyResources(this.pictureEdit1, "pictureEdit1");
             this.pictureEdit1.Properties.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("pictureEdit1.Properties.Appearance.BackColor")));
             this.pictureEdit1.Properties.Appearance.Options.UseBackColor = true;
             // 
             // pictureEdit2
             // 
+            this.pictureEdit2.EditValue = global::DevExpress.MailClient.Win.Properties.Resources.Œﬁ±ÍÃ‚;
             this.pictureEdit2.Properties.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("pictureEdit2.Properties.Appearance.BackColor")));
             this.pictureEdit2.Properties.Appearance.Options.UseBackColor = true;
             // 

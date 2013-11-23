@@ -64,15 +64,15 @@ namespace DevExpress.MailClient.Win.Controls
         }
         void CreateMessagesForNode(TreeListNode node)
         {
-            List<Message> messages = new List<Message>();
+            List<User> messages = new List<User>();
             MailType mailType = (MailType)node.GetValue(colType);
             MailFolder mailFolder = (MailFolder)node.GetValue(colFolder);
-            foreach (Message message in DataHelper.Messages)
+            foreach (User message in DataHelper.User)
             {
-                if (message.MailType == mailType &&
-                    (message.MailFolder == mailFolder || mailFolder == MailFolder.All) &&
-                    !message.Deleted)
-                    messages.Add(message);
+                //if (message.MailType == mailType &&
+                //    (message.MailFolder == mailFolder || mailFolder == MailFolder.All) &&
+                //    !message.Deleted)
+                messages.Add(message);
             }
             node.SetValue(colData, messages);
         }
@@ -104,28 +104,28 @@ namespace DevExpress.MailClient.Win.Controls
         }
         private void treeList1_CustomDrawNodeCell(object sender, CustomDrawNodeCellEventArgs e)
         {
-            if (DesignTimeTools.IsDesignMode) return;
-            if (e.Column == colName)
-            {
-                string textColor = GetHtmlTextColor(treeList1.FocusedNode.Equals(e.Node));
-                object textValue = e.Node.GetValue(colName);
-                e.CellText = string.Format("<Color={1}>{0}", textValue, textColor);
-                if (e.Node.ParentNode == null || !(DataHelper.ShowAllMessageCount || DataHelper.ShowUnreadMessageCount)) return;
-                List<Message> list = e.Node.GetValue(colData) as List<Message>;
-                int unread = GetUnreadMessagesCount(list);
-                if (unread > 0 && DataHelper.ShowUnreadMessageCount)
-                {
-                    if (DataHelper.ShowAllMessageCount)
-                        e.CellText = string.Format("<Color={5}><b>{0}</b><Size=-1><Color={2}> [{1}/<Color={4}>{3}<Color={2}>]", textValue, unread, ColorHelper.HtmlQuestionColor, list.Count, ColorHelper.HtmlWarningColor, textColor);
-                    else
-                        e.CellText = string.Format("<Color={3}><b>{0}</b><Size=-1><Color={2}> [{1}]", textValue, unread, ColorHelper.HtmlQuestionColor, textColor);
-                }
-                else
-                {
-                    if (DataHelper.ShowAllMessageCount && list.Count > 0)
-                        e.CellText = string.Format("<Color={3}>{0}<Size=-1><Color={2}> [{1}]", textValue, list.Count, ColorHelper.HtmlWarningColor, textColor);
-                }
-            }
+            //if (DesignTimeTools.IsDesignMode) return;
+            //if (e.Column == colName)
+            //{
+            //    string textColor = GetHtmlTextColor(treeList1.FocusedNode.Equals(e.Node));
+            //    object textValue = e.Node.GetValue(colName);
+            //    e.CellText = string.Format("<Color={1}>{0}", textValue, textColor);
+            //    if (e.Node.ParentNode == null || !(DataHelper.ShowAllMessageCount || DataHelper.ShowUnreadMessageCount)) return;
+            //    List<User> list = e.Node.GetValue(colData) as List<User>;
+            //    int unread = GetUnreadMessagesCount(list);
+            //    if (unread > 0 && DataHelper.ShowUnreadMessageCount)
+            //    {
+            //        if (DataHelper.ShowAllMessageCount)
+            //            e.CellText = string.Format("<Color={5}><b>{0}</b><Size=-1><Color={2}> [{1}/<Color={4}>{3}<Color={2}>]", textValue, unread, ColorHelper.HtmlQuestionColor, list.Count, ColorHelper.HtmlWarningColor, textColor);
+            //        else
+            //            e.CellText = string.Format("<Color={3}><b>{0}</b><Size=-1><Color={2}> [{1}]", textValue, unread, ColorHelper.HtmlQuestionColor, textColor);
+            //    }
+            //    else
+            //    {
+            //        if (DataHelper.ShowAllMessageCount && list.Count > 0)
+            //            e.CellText = string.Format("<Color={3}>{0}<Size=-1><Color={2}> [{1}]", textValue, list.Count, ColorHelper.HtmlWarningColor, textColor);
+            //    }
+            //}
         }
         static string GetHtmlTextColor(bool focused)
         {
@@ -133,10 +133,11 @@ namespace DevExpress.MailClient.Win.Controls
                 return ColorHelper.HtmlHighlightTextColor;
             return ColorHelper.HtmlControlTextColor;
         }
-        int GetUnreadMessagesCount(List<Message> list)
-        {
-            return list.Count(p => p.IsUnread);
-        }
+        //int GetUnreadMessagesCount(List<User> list)
+        //{
+
+        //    //return list.Count(p => p.IsUnread);
+        //}
         internal void RefreshTreeList()
         {
             treeList1.LayoutChanged();

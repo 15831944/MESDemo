@@ -60,6 +60,21 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
+
+          <xs:element name="Plans">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="ContractNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="OrderNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="OrderProcess" type="xs:string" minOccurs="0" />
+                <xs:element name="OrderState" type="xs:string" minOccurs="0" />
+                <xs:element name="StartDate" type="xs:string" minOccurs="0" />
+                <xs:element name="EndDate" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+
         </xs:choice>
       </xs:complexType>
     </xs:element>
@@ -4965,4 +4980,22 @@
     <PhoneNumber>12345678901</PhoneNumber>
     <Email>test@126.com</Email>
   </Users>
+  <Plans>
+    <ID>1</ID>
+    <ContractNumber>201309011234657</ContractNumber>
+    <OrderNumber>20130901123256642</OrderNumber>
+    <OrderProcess>20</OrderProcess>
+    <OrderState>正常</OrderState>
+    <StartDate>2013-11-01 23:35:23</StartDate>
+    <EndDate>2013-11-08 23:35:23</EndDate>
+  </Plans>
+    <Plans>
+    <ID>2</ID>
+    <ContractNumber>201309011234657</ContractNumber>
+    <OrderNumber>20130901123256642</OrderNumber>
+    <OrderProcess>60</OrderProcess>
+    <OrderState>延期</OrderState>
+    <StartDate>2013-11-01 23:35:23</StartDate>
+    <EndDate>2013-11-08 23:35:23</EndDate>
+  </Plans>
 </NewDataSet>

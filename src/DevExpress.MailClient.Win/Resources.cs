@@ -119,14 +119,17 @@ namespace DevExpress.MailClient.Win {
     public delegate void DataSourceChangedEventHandler(object sender, DataSourceChangedEventArgs e);
     public class DataSourceChangedEventArgs : EventArgs {
         List<Message> list;
+        List<User> user_list;
         MailType type;
         string caption;
         public DataSourceChangedEventArgs(object caption, object list, object type) {
-            this.list = (List<Message>)list;
+            //this.list = (List<Message>)list;
+            this.user_list = (List<User>)list;
             this.type = (MailType)type;
             this.caption = string.Format("{0}", caption);
         }
-        public List<Message> List { get { return list; } }
+        //public List<Message> List { get { return list; } }
+        public List<User> List { get { return user_list; } }
         public MailType Type { get { return type; } }
         public string Caption { get { return caption; } }
     }

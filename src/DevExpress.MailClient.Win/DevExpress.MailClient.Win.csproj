@@ -53,6 +53,7 @@
       </HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="DevExpress.Charts.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v12.1">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>
@@ -89,6 +90,8 @@
       </HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="DevExpress.XtraCharts.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v12.1.UI, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v12.1">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>
@@ -344,9 +347,7 @@
     <Compile Include="Controls\ucMailViewer.Designer.cs">
       <DependentUpon>ucMailViewer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Data.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Include="Data.cs" />
     <Compile Include="Forms\frmCustomDate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -358,6 +359,12 @@
     </Compile>
     <Compile Include="Forms\frmFeed.Designer.cs">
       <DependentUpon>frmFeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPlanDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPlanDetail.Designer.cs">
+      <DependentUpon>frmPlanDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\ssMain.cs">
       <SubType>Form</SubType>
@@ -401,6 +408,24 @@
     </Compile>
     <Compile Include="Modules\Mail.Designer.cs">
       <DependentUpon>Mail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PlanList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PlanList.Designer.cs">
+      <DependentUpon>PlanList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Report.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Station.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Station.Designer.cs">
+      <DependentUpon>Station.cs</DependentUpon>
     </Compile>
     <Compile Include="Modules\Tasks.cs">
       <SubType>UserControl</SubType>
@@ -518,6 +543,9 @@
     <EmbeddedResource Include="Forms\frmFeed.ja.resx">
       <DependentUpon>frmFeed.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPlanDetail.resx">
+      <DependentUpon>frmPlanDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ssMain.resx">
       <DependentUpon>ssMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -550,6 +578,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modules\Mail.ja.resx">
       <DependentUpon>Mail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\PlanList.resx">
+      <DependentUpon>PlanList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Station.resx">
+      <DependentUpon>Station.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modules\Tasks.resx">
       <DependentUpon>Tasks.cs</DependentUpon>
@@ -586,6 +623,13 @@
     <Compile Include="Resources.ja.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\无标题.png" />
+    <None Include="Resources\起始页副本.png" />
+    <None Include="Resources\arrow.png" />
+    <None Include="Resources\20131123033823248_easyicon_net_72.png" />
+    <None Include="Resources\20131123034022474_easyicon_net_72.png" />
+    <None Include="Resources\20131123034124678_easyicon_net_48.png" />
+    <None Include="Resources\20131123034236457_easyicon_net_72.png" />
     <Content Include="Resources\Mail_32x32.png" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="galleryItem1.Caption" xml:space="preserve">
+    <value>予定表を開く</value>
+    <comment>Open Calendar</comment>
+  </data>
+  <data name="galleryItem1.Description" xml:space="preserve">
+    <value>予定表ファイル (.ics) を開く</value>
+    <comment>Open a calendar file (.ics)</comment>
+  </data>
+  <data name="bvbiSaveAs.Caption" xml:space="preserve">
+    <value>名前を付けて保存</value>
+    <comment>Save As</comment>
+  </data>
+  <data name="bvbiSaveAttachment.Caption" xml:space="preserve">
+    <value>添付ファイルを保存</value>
+    <comment>Save Attachment</comment>
+  </data>
+  <data name="bvbiSaveCalendar.Caption" xml:space="preserve">
+    <value>予定表を保存</value>
+    <comment>Save Calendar</comment>
+  </data>
+  <data name="bvtiInfo.Caption" xml:space="preserve">
+    <value>デモについて</value>
+    <comment>Info</comment>
+  </data>
+  <data name="bvtiOpen.Caption" xml:space="preserve">
+    <value>開く</value>
+    <comment>Open</comment>
+  </data>
+  <data name="bvtiPrint.Caption" xml:space="preserve">
+    <value>印刷</value>
+    <comment>Print</comment>
+  </data>
+  <data name="bvtiExport.Caption" xml:space="preserve">
+    <value>エクスポート</value>
+    <comment>Export</comment>
+  </data>
+  <data name="bvbiExit.Caption" xml:space="preserve">
+    <value>終了</value>
+    <comment>Exit</comment>
+  </data>
+  <data name="rgbiSkins.Caption" xml:space="preserve">
+    <value>スキン</value>
+    <comment>Skins</comment>
+  </data>
+  <data name="bbiRotateLayout.Caption" xml:space="preserve">
+    <value>レイアウトの回転</value>
+    <comment>Rotate Layout</comment>
+  </data>
+  <data name="bbiFlipLayout.Caption" xml:space="preserve">
+    <value>レイアウトの反転</value>
+    <comment>Flip Layout</comment>
+  </data>
+  <data name="bciShowUnreadMessageCount.Caption" xml:space="preserve">
+    <value>未読メッセージの総数を表示</value>
+    <comment>Show Unread Message Count</comment>
+  </data>
+  <data name="bciShowAllMessageCount.Caption" xml:space="preserve">
+    <value>メッセージの総数を表示</value>
+    <comment>Show All Message Count</comment>
+  </data>
+  <data name="bbiDelete.Caption" xml:space="preserve">
+    <value>削除</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="bbiNew.Caption" xml:space="preserve">
+    <value>新しいメール</value>
+    <comment>New Mail</comment>
+  </data>
+  <data name="bbiReply.Caption" xml:space="preserve">
+    <value>返信</value>
+    <comment>Reply</comment>
+  </data>
+  <data name="bbiForward.Caption" xml:space="preserve">
+    <value>転送</value>
+    <comment>Forward</comment>
+  </data>
+  <data name="bbiReplyAll.Caption" xml:space="preserve">
+    <value>全員に返信</value>
+    <comment>Reply All</comment>
+  </data>
+  <data name="bbiUnreadRead.Caption" xml:space="preserve">
+    <value>未読 / 既読</value>
+    <comment>Unread/Read</comment>
+  </data>
+  <data name="bbiPriority.Caption" xml:space="preserve">
+    <value>優先</value>
+    <comment>Priority</comment>
+  </data>
+  <data name="bsiNavigation.Caption" xml:space="preserve">
+    <value>ナビゲーション</value>
+    <comment>Navigation</comment>
+  </data>
+  <data name="bbiCloseSearch.Caption" xml:space="preserve">
+    <value>検索を終了</value>
+    <comment>Close Search</comment>
+  </data>
+  <data name="bbiShowUnread.Caption" xml:space="preserve">
+    <value>未読</value>
+    <comment>Unread</comment>
+  </data>
+  <data name="bbiImportant.Caption" xml:space="preserve">
+    <value>重要</value>
+    <comment>Important</comment>
+  </data>
+  <data name="bbiHasAttachment.Caption" xml:space="preserve">
+    <value>添付ファイル有</value>
+    <comment>Has Attachment</comment>
+  </data>
+  <data name="bbiResetColumnsToDefault.Caption" xml:space="preserve">
+    <value>デフォルト設定にリセット</value>
+    <comment>Reset to Default</comment>
+  </data>
+  <data name="bsiColumns.Caption" xml:space="preserve">
+    <value>列をフィルター</value>
+    <comment>Filter Columns</comment>
+  </data>
+  <data name="bbiSubjectColumn.Caption" xml:space="preserve">
+    <value>件名</value>
+    <comment>Subject</comment>
+  </data>
+  <data name="bbiFromColumn.Caption" xml:space="preserve">
+    <value>差出人</value>
+    <comment>From</comment>
+  </data>
+  <data name="bbiDateColumn.Caption" xml:space="preserve">
+    <value>日付</value>
+    <comment>Date</comment>
+  </data>
+  <data name="bbiPriorityColumn.Caption" xml:space="preserve">
+    <value>優先</value>
+    <comment>Priority</comment>
+  </data>
+  <data name="bbiAttachmentColumn.Caption" xml:space="preserve">
+    <value>添付</value>
+    <comment>Attachment</comment>
+  </data>
+  <data name="bbiDate.Caption" xml:space="preserve">
+    <value>日付</value>
+    <comment>Date</comment>
+  </data>
+  <data name="bbiClearFilter.Caption" xml:space="preserve">
+    <value>フィルターを解除</value>
+    <comment>Clear Filter</comment>
+  </data>
+  <data name="bbiNewFeed.Caption" xml:space="preserve">
+    <value>新しいフィード</value>
+    <comment>New Feed</comment>
+  </data>
+  <data name="bbiEditFeed.Caption" xml:space="preserve">
+    <value>フィードを編集</value>
+    <comment>Edit Feed</comment>
+  </data>
+  <data name="bbiDeleteFeed.Caption" xml:space="preserve">
+    <value>削除</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="bbiRefreshFeed.Caption" xml:space="preserve">
+    <value>更新</value>
+    <comment>Refresh</comment>
+  </data>
+  <data name="rgbiCurrentView.Caption" xml:space="preserve">
+    <value>現在の連絡先ビュー</value>
+    <comment>Current Contacts View</comment>
+  </data>
+  <data name="galleryItem2.Caption" xml:space="preserve">
+    <value>リスト</value>
+    <comment>List</comment>
+  </data>
+  <data name="galleryItem3.Caption" xml:space="preserve">
+    <value>アルファベット順</value>
+    <comment>Alphabetical</comment>
+  </data>
+  <data name="galleryItem4.Caption" xml:space="preserve">
+    <value>州ごと</value>
+    <comment>By State</comment>
+  </data>
+  <data name="galleryItem5.Caption" xml:space="preserve">
+    <value>カード</value>
+    <comment>Card</comment>
+  </data>
+  <data name="bbiNormal.Hint" xml:space="preserve">
+    <value>標準</value>
+    <comment>Normal</comment>
+  </data>
+  <data name="bbiReading.Hint" xml:space="preserve">
+    <value>閲覧</value>
+    <comment>Reading</comment>
+  </data>
+  <data name="bbiManageView.Caption" xml:space="preserve">
+    <value>ビューを管理(&amp;M)...</value>
+    <comment>&amp;Manage Views...</comment>
+  </data>
+  <data name="bbiSaveCurrentView.Caption" xml:space="preserve">
+    <value>現在ビューを新しいビューとして保存(&amp;S)... </value>
+    <comment>&amp;Save Current View As a New View...</comment>
+  </data>
+  <data name="rgbiCurrentViewTasks.Caption" xml:space="preserve">
+    <value>現在のビュー</value>
+    <comment>Current View</comment>
+  </data>
+  <data name="galleryItem6.Caption" xml:space="preserve">
+    <value>日付で表示</value>
+    <comment>List by Date</comment>
+  </data>
+  <data name="galleryItem7.Caption" xml:space="preserve">
+    <value>To-Do リスト</value>
+    <comment>To-Do List</comment>
+  </data>
+  <data name="galleryItem8.Caption" xml:space="preserve">
+    <value>完了</value>
+    <comment>Completed</comment>
+  </data>
+  <data name="galleryItem9.Caption" xml:space="preserve">
+    <value>今日</value>
+    <comment>Today</comment>
+  </data>
+  <data name="galleryItem10.Caption" xml:space="preserve">
+    <value>重要度順</value>
+    <comment>Prioritized</comment>
+  </data>
+  <data name="galleryItem11.Caption" xml:space="preserve">
+    <value>期限切れ</value>
+    <comment>Overdue</comment>
+  </data>
+  <data name="galleryItem12.Caption" xml:space="preserve">
+    <value>シンプル リスト</value>
+    <comment>Simple List</comment>
+  </data>
+  <data name="galleryItem13.Caption" xml:space="preserve">
+    <value>延期</value>
+    <comment>Deferred</comment>
+  </data>
+  <data name="bbiTodayFlag.Caption" xml:space="preserve">
+    <value>今日</value>
+    <comment>Today</comment>
+  </data>
+  <data name="bbiTomorrowFlag.Caption" xml:space="preserve">
+    <value>明日</value>
+    <comment>Tomorrow</comment>
+  </data>
+  <data name="bbiThisWeekFlag.Caption" xml:space="preserve">
+    <value>今週</value>
+    <comment>This Week</comment>
+  </data>
+  <data name="bbiNextWeekFlag.Caption" xml:space="preserve">
+    <value>来週</value>
+    <comment>Next Week</comment>
+  </data>
+  <data name="bbiNoDateFlag.Caption" xml:space="preserve">
+    <value>日付なし</value>
+    <comment>No Date</comment>
+  </data>
+  <data name="bbiCustomFlag.Caption" xml:space="preserve">
+    <value>カスタム</value>
+    <comment>Custom</comment>
+  </data>
+  <data name="bbiNewContact.Caption" xml:space="preserve">
+    <value>新しい連絡先</value>
+    <comment>New Contact</comment>
+  </data>
+  <data name="bbiEditContact.Caption" xml:space="preserve">
+    <value>連絡先を編集</value>
+    <comment>Edit Contact</comment>
+  </data>
+  <data name="bbiDeleteContact.Caption" xml:space="preserve">
+    <value>削除</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="bbiNewTask.Caption" xml:space="preserve">
+    <value>新しいタスク</value>
+    <comment>New Task</comment>
+  </data>
+  <data name="bbiEditTask.Caption" xml:space="preserve">
+    <value>タスクを編集</value>
+    <comment>Edit Task</comment>
+  </data>
+  <data name="bbiDeleteTask.Caption" xml:space="preserve">
+    <value>削除</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="editAppointmentQueryItem1.Caption" xml:space="preserve">
+    <value>開く(&amp;O)</value>
+    <comment>&amp;Open</comment>
+  </data>
+  <data name="editOccurrenceUICommandItem1.Caption" xml:space="preserve">
+    <value>予定を開く</value>
+    <comment>Open Occurrence</comment>
+  </data>
+  <data name="editSeriesUICommandItem1.Caption" xml:space="preserve">
+    <value>一連の定期的な予定を開く</value>
+    <comment>Open Series</comment>
+  </data>
+  <data name="deleteAppointmentsItem1.Caption" xml:space="preserve">
+    <value>削除(&amp;D)</value>
+    <comment>&amp;Delete</comment>
+  </data>
+  <data name="deleteOccurrenceItem1.Caption" xml:space="preserve">
+    <value>予定を削除</value>
+    <comment>Delete Occurrence</comment>
+  </data>
+  <data name="deleteSeriesItem1.Caption" xml:space="preserve">
+    <value>一連の定期的な予定を削除</value>
+    <comment>Delete Series</comment>
+  </data>
+  <data name="changeAppointmentStatusItem1.Caption" xml:space="preserve">
+    <value>時間の表示方法(&amp;S)</value>
+    <comment>&amp;Show Time As</comment>
+  </data>
+  <data name="changeAppointmentLabelItem1.Caption" xml:space="preserve">
+    <value>ラベル名(&amp;L)</value>
+    <comment>&amp;Label As</comment>
+  </data>
+  <data name="changeAppointmentReminderItem1.Caption" xml:space="preserve">
+    <value>アラーム</value>
+    <comment>Reminder</comment>
+  </data>
+  <data name="rpgFind.Text" xml:space="preserve">
+    <value>フィルター操作</value>
+    <comment>Filter Actions</comment>
+  </data>
+  <data name="rpgFilterColumns.Text" xml:space="preserve">
+    <value>列をフィルター</value>
+    <comment>Filter Columns</comment>
+  </data>
+  <data name="rbgClose.Text" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>Close</comment>
+  </data>
+  <data name="rpSearch.Text" xml:space="preserve">
+    <value>検索</value>
+    <comment>Search</comment>
+  </data>
+  <data name="rpcSearch.Text" xml:space="preserve">
+    <value>検索ツール</value>
+    <comment>Search Tools</comment>
+  </data>
+  <data name="rpgNew.Text" xml:space="preserve">
+    <value>新規 / 返信</value>
+    <comment>New / Respond</comment>
+  </data>
+  <data name="rpgDelete.Text" xml:space="preserve">
+    <value>削除</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="rpgTags.Text" xml:space="preserve">
+    <value>タグ</value>
+    <comment>Tags</comment>
+  </data>
+  <data name="rpgLayoutMail.Text" xml:space="preserve">
+    <value>レイアウト</value>
+    <comment>Layout</comment>
+  </data>
+  <data name="rpMail.Text" xml:space="preserve">
+    <value>メール</value>
+    <comment>Mail</comment>
+  </data>
+  <data name="rpCalendar.Text" xml:space="preserve">
+    <value>予定表</value>
+    <comment>Calendar</comment>
+  </data>
+  <data name="rpgContacts.Text" xml:space="preserve">
+    <value>新規 / 編集</value>
+    <comment>New / Edit</comment>
+  </data>
+  <data name="rpgCurrentView.Text" xml:space="preserve">
+    <value>現在のビュー</value>
+    <comment>Current View</comment>
+  </data>
+  <data name="rpgLayoutContacts.Text" xml:space="preserve">
+    <value>レイアウト</value>
+    <comment>Layout</comment>
+  </data>
+  <data name="rpContacts.Text" xml:space="preserve">
+    <value>連絡先</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="rpgFeeds.Text" xml:space="preserve">
+    <value>新規 / 編集</value>
+    <comment>New / Edit</comment>
+  </data>
+  <data name="rpgActionsFeeds.Text" xml:space="preserve">
+    <value>操作</value>
+    <comment>Actions</comment>
+  </data>
+  <data name="rpgLayoutFeeds.Text" xml:space="preserve">
+    <value>レイアウト</value>
+    <comment>Layout</comment>
+  </data>
+  <data name="rpFeeds.Text" xml:space="preserve">
+    <value>フィード</value>
+    <comment>Feeds</comment>
+  </data>
+  <data name="rpgTasks.Text" xml:space="preserve">
+    <value>新規 / 編集</value>
+    <comment>New / Edit</comment>
+  </data>
+  <data name="rpgFollowUp.Text" xml:space="preserve">
+    <value>フラグの設定</value>
+    <comment>Follow Up</comment>
+  </data>
+  <data name="rpdCurrentViewTasks.Text" xml:space="preserve">
+    <value>現在のビュー</value>
+    <comment>Current View</comment>
+  </data>
+  <data name="rpTasks.Text" xml:space="preserve">
+    <value>タスク</value>
+    <comment>Tasks</comment>
+  </data>
+  <data name="rpgNavigation.Text" xml:space="preserve">
+    <value>ナビゲーション</value>
+    <comment>Navigation</comment>
+  </data>
+  <data name="prgAppearance.Text" xml:space="preserve">
+    <value>外観</value>
+    <comment>Appearance</comment>
+  </data>
+  <data name="rpView.Text" xml:space="preserve">
+    <value>ビュー</value>
+    <comment>View</comment>
+  </data>
+  <data name="nbgMail.Caption" xml:space="preserve">
+    <value>メール</value>
+    <comment>Mail</comment>
+  </data>
+  <data name="nbgCalendar.Caption" xml:space="preserve">
+    <value>予定表</value>
+    <comment>Calendar</comment>
+  </data>
+  <data name="nbgContacts.Caption" xml:space="preserve">
+    <value>連絡先</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="nbgFeeds.Caption" xml:space="preserve">
+    <value>フィード</value>
+    <comment>Feeds</comment>
+  </data>
+  <data name="nbgTasks.Caption" xml:space="preserve">
+    <value>タスク</value>
+    <comment>Tasks</comment>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Mail Client</value>
+    <comment>Mail Client</comment>
+  </data>
+</root>
